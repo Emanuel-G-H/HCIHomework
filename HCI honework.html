@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>NeuroAPP Interface</title>
+    <link rel="stylesheet" href="css/scholarly.min.css">
+    <script src="js/scholarly.min.js"></script>
+  </head>
+
+<style>
+  *{
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+  p{text-align:justify;}
+</style>
+  <body prefix="schema: http://schema.org">
+    
+    <header>
+      <h1 align="center">Documentation - HCI homework - NeuroAPP Interface</h1>
+    </header>
+    
+    <div role="contentinfo">
+      <dl>
+        <dt>Author</dt>
+        <dd typeof="sa:ContributorRole" property="schema:author">
+          <span typeof="schema:Person">
+            <meta property="schema:givenName" content="George Emanuel">
+            <meta property="schema:familyName" content="Hurmuz">
+            <a href="https://github.com/Emanuel-G-H">
+              <span property="schema:name">George Emanuel Hurmuz</span>
+            </a>
+          </span>
+        </dd>
+        <dt>License</dt>
+        <dd>
+          <a href="https://opensource.org/licenses/MIT">MIT</a>
+        </dd>
+      </dl>
+    </div>
+    
+    <section typeof="sa:Presentation" id="abstract" role="short-presentation">
+      <h2>Short presentation</h2>
+      <p>
+        NeuroApp is an app that recognise lung diseases using computational visualisation over lung x-rays. The complexity 
+        of the app consinsts on neural networks and deep learning.
+        In order to make the app user friendly, I've decided to create a simple user interface that presents the purpose of the app
+        and guides the user through the possible use-case-uri.
+      </p>
+    </section>
+    
+    <section id="wireframes" role="doc-wireframes">
+      <h2>WireFrames</h2>
+      <p>
+        The main page contains a short description of the application and the possibiliy to log in.
+      </p>
+      <p>
+        The user page contains information about the user, anterior results and a button used for uploading photos to the test of the neural network.
+      </p>
+      <p>
+        The results page contains information about the pacient, a short result and some statistics.
+      </p>
+    </section>
+
+    <section id="wireframes" role="doc-wireframes">
+      <h2>Possible questions</h2>
+      <p>Can this app replace the opinion of a medical specialist? </p>
+      <p>No, it can not. To be sure that every user knows this, each page contains on bottom a warning part. 
+      Also, the ui has two blue colored lines that separates the components of the design.( It is easier for users to pay attention to a specific component when that component is isolated from all the design.) </p>
+
+      <p>How does a user know how to use the app? </p>
+      <p>Even from the first page, all the important parts are indicated by blue components. Also, there are descriptions that help users interact.
+      </p>
+
+      <p>How can users read and understand the results of the app?</p>
+      <p>
+      This part may be difficult for some users but with the help of three different data visualisation it becomes easier. They simply go to the results page and click on visualisations. </p>
+    </section>
+
+    <section id="personas" role="personas">
+      <h2>Personas</h2>
+      <li>Type: Primary</li>
+      <li>Name: Mihai Viteazu</li>
+      <p>Background</p>
+       <ul>
+        <li>Date of birth: 10/02/1976</li>
+        <li>Profession: Medic </li>
+        <li>Location: Iasi</li>
+      </ul> 
+      <p>Main points</p>
+      <ul>
+        <li>Experience in medical domain</li>
+        <li>Has a lot of social connections</li>
+        <li>Uses the app to test patients</li>
+      </ul> 
+
+      <p>Goals</p>
+      <ul>
+        <li>Minimise time spend with each patient</li>
+      </ul> 
+
+      <p>Frustrations and Pain Points</p>
+      <ul>
+        <li>Does not completely trust tech.</li>
+      </ul> 
+      <p>Detailed Description: Mihai uses daily the app but does not always trust the results so he double checks from time to time. He likes to optimise his time for the pacients and wants to see more updates to get convinced more about tech viability in medicine.</p>
+
+    </section>
+    
+    
+
+  </body>
+</html>
